@@ -1,0 +1,22 @@
+body {
+	margin: 0px;
+	width: 100vw;
+}
+#queue {
+	bottom: 0;
+	padding: 8px;
+	position: fixed;
+	width: 100vw;
+}
+#queue-task, #queue-mission, #queue-progress-text {
+	display: block;
+	font-family: Raleway;
+	text-align: center;
+}
+#queue-progress {
+	width: calc(100% - 16px);
+}
+#queue-progress-text {
+	font-family: "Anek Tamil";
+	font-size: 12px;
+}

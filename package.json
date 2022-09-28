@@ -1,0 +1,22 @@
+{
+	"name": "dokkit",
+	"description": "Dragon Ball Z Dokkan Battle Bot",
+	"version": "0.0.1",
+	"main": "src/init.js",
+	"license": "GPL-3.0",
+	"author": "Seizefire",
+	"scripts": {
+		"start": "electron .",
+		"test": "mkdir test & cd test && electron .. && cd ..",
+		"rebuild": "electron-rebuild -f -w better-sqlite3"
+	},
+	"dependencies": {
+		"axios": "^0.26.1",
+		"better-sqlite3": "^7.5.1",
+		"mini-sqlcipher": "^1.0.0"
+	},
+	"devDependencies": {
+		"electron": "^18.2.0",
+		"electron-rebuild": "^3.2.7"
+	}
+}
